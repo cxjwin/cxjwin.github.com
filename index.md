@@ -6,9 +6,9 @@ tagline: iOS developer
 
 ### About Author
 
-<a> {{ author.name }} </a>
-<a> {{ author.email }} </a>
-<a> {{ author.github }} </a>
+Name : Smart Cai
+Email : 88cxjwin@gmail.com
+Github : cxjwin.github.com
 
 ### Blog List
 
