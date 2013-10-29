@@ -8,13 +8,12 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Smart Cai
+title : Smart Cali
 tagline: Site Tagline
 author :
   name : Smart Cai
   email : 88cxjwin@gmail.com
-  github : cxjwin
-  weibo : 蔡雪钧
+  github : github.com/cxjwin
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -82,15 +81,6 @@ JB :
     provider : disqus
     disqus :
       short_name : jekyllbootstrap
-    livefyre :
-      site_id : 123
-    intensedebate :
-      account : 123abc
-    facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
