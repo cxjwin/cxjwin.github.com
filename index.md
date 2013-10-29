@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Smart Cai's Technology blog
+title: Smart Cai's Technology Blog
+tagline: for iOS
 ---
 {% include JB/setup %}
     
