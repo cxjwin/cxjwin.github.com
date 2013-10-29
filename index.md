@@ -1,17 +1,9 @@
 ---
-layout: index
-title: Smart Cai's Blog 
-tagline: iOS developer
+layout: page
+title: Smart's Blog
+tagline: For iOS
 ---
-
-### About Author
-
-<br>Name   : 	Smart Cai</br>
-<br>Email  :	[88cxjwin@gmail.com][email]</br>
-<br>Github :	[cxjwin.github.com][github]</br>
-
-[email]:"88cxjwin@gmail.com"
-[github]:"cxjwin@github.com"
+{% include JB/setup %}
 
 ### Blog List
 
