@@ -1,0 +1,10 @@
+permalink: /:categories/:year/:month/:day/:title 
+
+title : Smart Cai
+tagline: iOS Developer
+author :
+  name : Smart Cai
+  email : 88cxjwin@gmail.com
+  github : cxjwin@github.com
+
+production_url : http://cxjwin.github.io
