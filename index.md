@@ -1,8 +1,6 @@
 ---
 layout: page
 title: Smart Cai's Technology blog
-===
-tagline: My Learning experience About iOS
 ---
 {% include JB/setup %}
     
