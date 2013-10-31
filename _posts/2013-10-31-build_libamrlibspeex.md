@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Xcode5下编译amr&speex库"
-description:""
-categories:iOS
-tags:[shell]
+title: "Xcode5下编译amr和speex库"
+description: ""
+categories: iOS
+tags: [shell]
 ---
+   
 &emsp;&emsp;Xcode5之后多了对arm64的支持，所以之前编译的库也要适时的更新下，而且gcc和g++在arm平台暂时还木有对arm64进行支持（这个是个人推断）所以编译采用clang和clang++，当然Mac平台采用这两个编译器编译c和c++是要比gcc和g++好的，因为前面两个是apple当初为了Mac平台专门开发的编译器。
 &emsp;&emsp;下面进入正题，相较于之前的在终端模式下，逐行敲命令，我们可选择更为灵活和便利的shell脚本。
 1.编译libamr
@@ -170,8 +171,8 @@ shell脚本其实也是大同小异
 	
 *PS:完整的库文件在我的[github](https://github.com/cxjwin/libogg-1.3.0.git)里面clone后运行ogg_ios.sh即可*  
 
-(github空缺，稍后上传)
+(github空缺，稍后上传)  
 2.2编译speex
 
-因为speex是依赖libogg库的所以，一定要注意编译顺序。
+&emsp;&emsp;因为speex是依赖libogg库的所以，一定要注意编译顺序。
 当然这里编译的过程中，自己也学习了下shell脚本。Xcode本身就支持shell脚本，Xcode编译的时候我们就可以把工程的.a文件一并打包成一个，以便于模拟器和真机同时引用，当然这又是另外一个主题了。
