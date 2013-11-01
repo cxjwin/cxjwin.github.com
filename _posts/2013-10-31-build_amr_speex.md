@@ -246,6 +246,7 @@ shell脚本其实也是大同小异
 	    done
 	    lipo -create $input -output $DEST/$i 
 	done 
+*PS:完整的库文件在我的[github](https://github.com/cxjwin/speex-1.2rc1.git)里面clone后运行speex_ios.sh即可*  
 
 &emsp;&emsp;因为speex是依赖libogg库的所以，一定要注意编译顺序。注意这是在Xcode5环境下编译的，Xcode4没有尝试过，应该编不了amr64的。  
 &emsp;&emsp;当然这里编译的过程中，自己也学习了下shell脚本。Xcode本身就支持shell脚本，Xcode编译的时候我们就可以把工程的.a文件一并打包成一个，以便于模拟器和真机同时引用，当然这又是另外一个主题了。
