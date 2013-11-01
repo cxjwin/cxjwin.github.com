@@ -6,8 +6,8 @@ categories: iOS
 tags: [shell]
 ---
    
-&emsp;&emsp;Xcode5之后多了对arm64的支持，所以之前编译的库也要适时的更新下，而且gcc和g++在arm平台暂时还木有对arm64进行支持（这个是个人推断）所以编译采用clang和clang++，当然Mac平台采用这两个编译器编译c和c++是要比gcc和g++好的，因为前面两个是apple当初为了Mac平台专门开发的编译器。
-&emsp;&emsp;下面进入正题，相较于之前的在终端模式下，逐行敲命令，我们可选择更为灵活和便利的shell脚本。
+&emsp;&emsp;Xcode5之后多了对arm64的支持，所以之前编译的库也要适时的更新下，而且gcc和g++在arm平台暂时还木有对arm64进行支持（这个是个人推断）所以编译采用clang和clang++，当然Mac平台采用这两个编译器编译c和c++是要比gcc和g++好的，因为前面两个是apple当初为了Mac平台专门开发的编译器。  
+&emsp;&emsp;下面进入正题，相较于之前的在终端模式下，逐行敲命令，我们可选择更为灵活和便利的shell脚本。  
 1.编译libamr
 
 	#!/bin/sh
