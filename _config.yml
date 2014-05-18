@@ -1,0 +1,7 @@
+markdown: rdiscount
+permalink: /:year/:month/:day/:title/
+url: http://cxjwin.github.com
+author: Smart Cai
+pygments: true
+safe: true
+paginate: 16
