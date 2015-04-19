@@ -165,7 +165,7 @@ shell脚本其实也是大同小异
 	
 *PS:完整的库文件在我的[github](https://github.com/cxjwin/speex_libs.git)里面clone后,找到libogg-1.3.2文件夹运行里面build_ogg_ios.sh即可*  
    
-2.3编译speexdsp
+2.2编译speexdsp
 
 	#!/bin/sh
 	
@@ -238,7 +238,7 @@ shell脚本其实也是大同小异
 
 *PS:完整的库文件在我的[github](https://github.com/cxjwin/speex_libs.git)里面clone后,找到speexdsp-1.2rc3文件夹运行里面build_speexsdp_ios.sh即可*    
 
-2.2编译speex  
+2.3编译speex  
    
 	#!/bin/sh
 	
