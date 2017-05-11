@@ -2,6 +2,8 @@ markdown: rdiscount
 permalink: /:year/:month/:day/:title/
 url: http://cxjwin.github.com
 author: Smart Cai
-pygments: true
+highlighter: pygments
 safe: true
 paginate: 16
+# Gems
+gems: [jekyll-paginate]
