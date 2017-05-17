@@ -10,11 +10,11 @@ comments: no
 
 ----
 
-###联系方式:
+联系方式
 
-个人邮箱: [88cxjwin@gmail.com](mailto:88cxjwin@gmail.com)     
-新浪微博: [SmartCai](http://weibo.com/shiney8y)	  
-github: [SmartCai](https://github.com/cxjwin)        
+邮箱: [88cxjwin@gmail.com](mailto:88cxjwin@gmail.com)     
+微博: [SmartCai](http://weibo.com/shiney8y)	  
+Github: [SmartCai](https://github.com/cxjwin)        
 
 ----
 
