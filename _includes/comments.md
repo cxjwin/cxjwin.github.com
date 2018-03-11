@@ -1,10 +1,14 @@
-<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+
+<div id="disqus_thread"></div>
+
 <script>
-  var cloudTieConfig = {
-    url: document.location.href, 
-    sourceId: "",
-    productKey: "de206e5958d9444c9478e0e7f02bb7d6",
-    target: "cloud-tie-wrapper"
-  };
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://smartcaiblog.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
 </script>
-<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
+
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
