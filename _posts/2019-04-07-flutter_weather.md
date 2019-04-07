@@ -8,3 +8,4 @@ tags: [App]
 
 Flutter Weather is a weather app use flutter. Just for study new mobile framework - flutter.
 
+![app preview](../assets/flutter_weather.jpg)
