@@ -1,8 +1,11 @@
-markdown: rdiscount
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 permalink: /:year/:month/:day/:title/
 url: http://cxjwin.github.com
 author: Smart Cai
-highlighter: pygments
 safe: true
 paginate: 16
 # Gems
