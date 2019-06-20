@@ -8,5 +8,5 @@ url: http://cxjwin.github.com
 author: Smart Cai
 safe: true
 paginate: 16
-# Gems
-gems: [jekyll-paginate]
+# plugins
+plugins: [jekyll-paginate]
