@@ -12,8 +12,7 @@ kramdown:
     css_class   : 'highlight'
 
 theme: minima
-plugins:
-  - jekyll-paginate-v2
+plugins: [jekyll-paginate-v2]
 exclude:
   - Gemfile
   - Gemfile.lock
