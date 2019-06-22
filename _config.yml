@@ -1,12 +1,31 @@
+# Site settings
+author: Smart Cai
+url: http://cxjwin.github.com
+
+# Build settings
 highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: objective_c
+    css_class   : 'highlight'
+
+theme: minima
+plugins:
+  - jekyll-paginate-v2
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  
 permalink: /:year/:month/:day/:title/
-url: http://cxjwin.github.com
-author: Smart Cai
-safe: true
-paginate: 16
-# plugins
-plugins: [jekyll-paginate]
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/page/:num/'
+  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
