@@ -2,8 +2,8 @@
 layout: post
 title: "MRC下安全的Block"
 description: ""
-categories:
-tags: [iOS]
+categories: iOS
+tags: [Block]
 ---
 
 &emsp;&emsp;iOS4以后引入的block，一个比较方便且实用的功能。但是自己在开发的时候遇到了不少的坑，很多都是和内存管理相关的，后来iOS5.0以后有了ARC，有了__weak关键字，所以block使用也就更安全了。  

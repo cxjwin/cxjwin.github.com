@@ -3,7 +3,7 @@ layout: post
 title: "利用runtime隐藏QLPreviewController的分享按钮"
 description: ""
 categories: iOS
-tags: [runtime]
+tags: [Runtime]
 ---
 
 &emsp;&emsp;最近公司做一个项目，会用自定预览界面，首先想到的就是QLPreviewController，因为这是Apple自带的框架，效率上也比WebView好些。但是QLPreviewController的自定义特性比较差，我们的界面不需要QLPreviewController 的 NavigationBar 右上角的 分享按钮，纠结了很久一直没有找到比较好的解决方法，后来还是万能的github给出了一个较为理想的答案。  

@@ -2,7 +2,7 @@
 layout: post
 title: "Flutter Weather"
 description: "A weather App use flutter"
-categories: App
+categories: Flutter
 tags: [App]
 ---
 

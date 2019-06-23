@@ -2,8 +2,8 @@
 layout: post
 title: "Privacy Policy"
 description: "Privacy Policy"
-categories:
-tags: []
+categories: Flutter
+tags: [App]
 ---
 
 SmartCai built the Flutter Weather app as a Free app. This SERVICE is provided by SmartCai at no cost and is intended for use as is.

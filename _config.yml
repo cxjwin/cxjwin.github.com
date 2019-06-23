@@ -17,4 +17,4 @@ plugins: [jekyll-paginate]
 permalink: /:year/:month/:day/:title/
 
 # Pagination Settings
-paginate: 5
+paginate: 8

@@ -5,11 +5,12 @@ description: ""
 categories: iOS
 tags: [shell]
 ---
-   
+
 &emsp;&emsp;Xcode5之后多了对arm64的支持，所以之前编译的库也要适时的更新下，而且gcc和g++在arm平台暂时还木有对arm64进行支持（这个是个人推断）所以编译采用clang和clang++，当然Mac平台采用这两个编译器编译c和c++是要比gcc和g++好的，因为前面两个是apple当初为了Mac平台专门开发的编译器。  
 &emsp;&emsp;下面进入正题，相较于之前的在终端模式下，逐行敲命令，我们可选择更为灵活和便利的shell脚本。  
 1.编译libamr
 
+```sh
 	#!/bin/sh
 	
 	#  opencore_amr.sh
@@ -89,8 +90,9 @@ tags: [shell]
 	        input="$input $DEST/$arch/lib/$i"
 	    done
 	    lipo -create $input -output $DEST/$i
-	done 
-	
+	done
+```
+
 *PS:完整的库文件在我的[github](https://github.com/cxjwin/opencore-amr-0.1.3.git)里面clone后运行opencore_amr.sh即可*
 
 2.编译speex库
@@ -98,6 +100,7 @@ tags: [shell]
 2.1.编译libogg
 shell脚本其实也是大同小异
 
+```sh
 	#!/bin/sh
 
 	#  build_ogg_ios.sh
@@ -162,11 +165,13 @@ shell脚本其实也是大同小异
 	    done
 	    lipo -create $input -output $DEST/$i
 	done
-	
+```
+
 *PS:完整的库文件在我的[github](https://github.com/cxjwin/speex_libs.git)里面clone后,找到libogg-1.3.2文件夹运行里面build_ogg_ios.sh即可*  
-   
+
 2.2编译speexdsp
 
+```sh
 	#!/bin/sh
 	
 	#  build_speexdsp_ios.sh
@@ -234,12 +239,14 @@ shell脚本其实也是大同小异
 	        input="$input $DEST/$arch/lib/$i"
 	    done
 	    lipo -create $input -output $DEST/$i 
-	done 
+	done
+```
 
 *PS:完整的库文件在我的[github](https://github.com/cxjwin/speex_libs.git)里面clone后,找到speexdsp-1.2rc3文件夹运行里面build_speexsdp_ios.sh即可*    
 
 2.3编译speex  
-   
+
+```sh
 	#!/bin/sh
 	
 	#  build_speex_ios.sh
@@ -311,10 +318,11 @@ shell脚本其实也是大同小异
 	        input="$input $DEST/$arch/lib/$i"
 	    done
 	    lipo -create $input -output $DEST/$i 
-	done    
-	
-*PS:完整的库文件在我的[github](https://github.com/cxjwin/speex_libs.git)里面clone后,找到speex-1.2rc2文件夹运行里面build_speex_ios.sh即可*   
+	done
+```
+
+*PS:完整的库文件在我的[github](https://github.com/cxjwin/speex_libs.git)里面clone后,找到speex-1.2rc2文件夹运行里面build_speex_ios.sh即可*  
 
 &emsp;&emsp;因为speex是依赖libogg库的所以一定要注意编译顺序。speex-1.2rc2以后speexdsp-1.2rc3从speex里面抽离了出来,所以需要单独编译.  
-   
+
 &emsp;&emsp;当然这里编译的过程中，自己也学习了下shell脚本。Xcode本身就支持shell脚本，Xcode编译的时候我们就可以把工程的.a文件一并打包成一个，以便于模拟器和真机同时引用，当然这又是另外一个主题了。

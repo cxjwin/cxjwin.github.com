@@ -3,7 +3,7 @@ layout: post
 title: "CoreText Demo系列"
 description: "CoreText & TextKit Demo"
 categories: iOS
-tags: [iOS,CoreText]
+tags: [CoreText]
 ---
 
 &emsp;&emsp;承接之前CocoaChina上的[帖子](http://www.cocoachina.com/bbs/read.php?tid=110499)。那时候用的还是第三方的OHAttributedLabel，在此基础上添加一些功能。后来在项目中也用到了OHAttributedLabel发现有个问题，因为Label本身显示的字数超过2W(大概数字)的时候显示是空白界面，文字巨多的时候还是用相应的重用规则会比较好，当然UITextView就不会存在这个，这时候另一个第三方框架DTCoreText就更适合了，另外DTCoreText貌似只支持ARC，这两个框架GitHub上也一直有更新，是比较优秀的CoreText第三方库。当然也可以用UITableView来简便的实现重用，性能也不错，公司的项目上我就是用的这个方法，几万字在3GS上也跑的呼呼的。  

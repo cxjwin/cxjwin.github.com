@@ -4,7 +4,5 @@ layout: page
 comments: yes
 ---
 
-[博客园](http://www.cnblogs.com/cxjwin/)  
-
-[CocoaChina](http://www.cocoachina.com/bbs/?a=cxjwin) 
-
+[掘金](https://juejin.im/user/5aff9a0851882542821c93f0)  
+[简书](https://www.jianshu.com/u/xkH1vE)  

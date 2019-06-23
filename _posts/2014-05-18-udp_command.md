@@ -2,7 +2,7 @@
 layout: post
 title: "使用UDP与模拟器App交互"
 description: ""
-categories:
+categories: iOS
 tags: [Test]
 ---
 &emsp;&emsp;我们知道PC上的程序可以监听终端的输入输出,但是模拟器的终端我一直没找到,如果有找到的可以告诉鄙人一下.  
